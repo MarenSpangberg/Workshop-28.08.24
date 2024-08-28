@@ -9,3 +9,4 @@ For this workshop we try to cater all experience levels so some of the tasks mig
 > If you are stuck, ask for help. We are here to help you.
 > Using AI to solve the tasks is encouraged.
 
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/MarenSpangberg/Workshop-28.08.24/build.yaml?label=Build)
