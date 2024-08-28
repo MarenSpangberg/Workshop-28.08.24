@@ -1,0 +1,17 @@
+name: Build Pull Request
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: Build
+        shell: bash
+        run: |
+          npm install
+          npm run build
